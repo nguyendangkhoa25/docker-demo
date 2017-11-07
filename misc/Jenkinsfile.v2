@@ -23,7 +23,7 @@ node {
      }                                   
      mysql.stop()
    }
-   / job
+   // job
   try {
     stage('Test failed') {
       println('A test has failed!')
